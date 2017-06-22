@@ -23,7 +23,7 @@
 }
 
 .logo,
-.cart b,
+.car b,
 .c_dropgos,
 .c_change,
 .c_freesheep,
@@ -66,7 +66,7 @@
     color: #ddd;
 }
 
-.cart {
+.car {
     height: 30px;
     display: inline-block;
     position: relative;
@@ -74,11 +74,11 @@
     padding-left: 22px;
 }
 
-.cart a {
+.car a {
     color: #9f9f9f;
 }
 
-.cart b {
+.car b {
     margin-left: 10px;
     display: inline-block;
     background-position: -216px -4px;
@@ -91,11 +91,11 @@
     top: 2px;
 }
 
-.cart.hover:hover b {
+.car.hover:hover b {
     background-position: -262px -4px;
 }
 
-.cart.hover:hover a {
+.car.hover:hover a {
     color: #ef4222;
 }
 
@@ -248,6 +248,7 @@
 
 .hotrecommand .hrleft {
     width: 26%;
+    transition: all ease-in .3s;
 }
 
 .hotrecommand .hrleft a {
@@ -257,8 +258,8 @@
     position: relative;
 }
 
-.hotrecommand .hrleft:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+.a-card:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
     transform: rotate(-2px);
 }
