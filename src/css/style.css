@@ -313,6 +313,11 @@
     color: #777;
 }
 
+.footer .footer-title li a:hover,
+.footer .footer-guide dd a:hover {
+    color: #ef4222;
+}
+
 .footer .footer-title li i {
     width: 46px;
     height: 46px;
@@ -420,6 +425,25 @@
     border-top-color: #fff;
 }
 
+.footer .footer-copy .last-item .sumbus {
+    height: 0;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    width: 94px;
+    left: 0;
+    text-align: left;
+    z-index: 999;
+    padding-left: 6px;
+    line-height: 25px;
+}
+
+.footer .footer-copy .last-item:hover .sumbus {
+    height: 50px;
+    transition: all 0.3s;
+    background-color: #474747;
+}
+
 .footer .footer-copy a {
     color: #999;
 }
@@ -430,6 +454,20 @@
 
 .footer .footer-copy .content {
     margin-top: 8px;
+}
+
+.footer .footer-copy .content a {
+    margin-right: 8px;
+}
+
+.footer .footer-copy .content a img {
+    vertical-align: middle;
+    height: 45px;
+}
+
+.footer .footer-copy .content p {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .red {

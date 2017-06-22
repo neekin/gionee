@@ -20,6 +20,10 @@
     _zoom: 1;
 }
 
-.center{
-    margin:0 auto;
+.center {
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
 }
