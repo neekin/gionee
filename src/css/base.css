@@ -1,0 +1,25 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hover {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.hover:hover {
+    color: #ef4222;
+}
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.center{
+    margin:0 auto;
+}
