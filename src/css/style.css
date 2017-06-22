@@ -27,7 +27,8 @@
 .c_dropgos,
 .c_change,
 .c_freesheep,
-.c_svspoint {
+.c_svspoint,
+.search-btn {
     background-image: url(../img/spirite.png);
 }
 
@@ -110,9 +111,31 @@
     padding-left: 3px;
     height: 28px;
     line-height: 28px;
-    border: #ddd 1px solid;
+    border: 1px solid #ddd;
     position: relative;
     z-index: 1;
+}
+
+.search .search-txt {
+    outline: none;
+    border: none;
+    width: 138px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "Microsoft YaHei";
+}
+
+.search .search-btn {
+    width: 25px;
+    height: 28px;
+    display: block;
+    background-color: #fff;
+    background-position: -236px 2px;
+    border: 0;
+    text-indent: -9999em;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: none;
 }
 
 .menu li {
@@ -279,50 +302,134 @@
     padding-top: 40px;
 }
 
-.footer li {
+.footer .footer-title li {
     width: 24.5%;
     height: 47px;
 }
 
-.footer li a {
+.footer .footer-title li a {
     line-height: 20px;
     font-size: 16px;
     color: #777;
 }
 
-.footer li i {
+.footer .footer-title li i {
     width: 46px;
     height: 46px;
     background-position: 0 -60px;
     margin-right: 10px;
 }
 
-.footer li .c_change {
+.footer .footer-title li .c_change {
     background-position: -46px -60px;
 }
 
-.footer li .c_freesheep {
+.footer .footer-title li .c_freesheep {
     background-position: -92px -60px;
 }
 
-.footer li .c_freesheep {
+.footer .footer-title li .c_freesheep {
     background-position: -92px -60px;
 }
 
-.footer li .c_svspoint {
+.footer .footer-title li .c_svspoint {
     background-position: -138px -60px;
 }
 
 .footer .footer-title {
-    border-bottom: #eaeaea 1px solid;
+    /*border-bottom: #eaeaea 1px solid;*/
     padding-bottom: 40px;
     height: 48px;
+}
+
+.footer .line {
+    border-top: #eaeaea 1px solid;
+    /*width: 100%;
+    padding-bottom: 40px;
+    height: 47px;*/
+    background: #fff;
+    padding-bottom: 20px;
 }
 
 .footer .footer-guide dl {
     width: 18%;
     line-height: 33px;
     color: #777;
+}
+
+.footer .footer-guide dt {
+    font-size: 16px;
+}
+
+.footer .footer-guide dd a {
+    color: #777;
+}
+
+.footer .footer-guide {
+    padding-bottom: 30px;
+}
+
+.footer .footer-copy {
+    background: #333;
+    text-align: left;
+    color: #999;
+    padding: 20px 0;
+}
+
+.footer .footer-copy .first-item {
+    position: relative;
+}
+
+.footer .footer-copy .first-item:after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    border-left: 1px solid #999;
+    height: 60%;
+    right: -10px;
+    top: 4px;
+}
+
+.footer .footer-copy .last-item {
+    position: relative;
+    width: 88px;
+    padding: 0 6px;
+    margin-left: 10px;
+}
+
+.footer .footer-copy .last-item:hover {
+    background-color: #474747;
+}
+
+.footer .footer-copy .last-item span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top: 6px;
+    right: 6px;
+    border-top: solid 4px #999;
+    border-left: solid 4px #474747;
+    border-right: solid 4px #474747;
+    transition: all 0.3s;
+}
+
+.footer .footer-copy .last-item:hover span {
+    transform: rotate(180deg);
+    border-color: #474747;
+    border-top-color: #fff;
+}
+
+.footer .footer-copy a {
+    color: #999;
+}
+
+.footer .footer-copy a:hover {
+    color: #fff;
+}
+
+.footer .footer-copy .content {
+    margin-top: 8px;
 }
 
 .red {
