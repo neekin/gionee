@@ -95,7 +95,8 @@
     background-position: -262px -4px;
 }
 
-.car.hover:hover a {
+.car.hover:hover a,
+.phone .sublist .wrapper .menu-ul li a:hover {
     color: #ef4222;
 }
 
@@ -145,7 +146,60 @@
     font-size: 16px;
     color: #000;
     line-height: 30px;
+    text-align: center;
 }
+.header .phone{
+    padding-bottom: 22px;
+}
+
+.header .phone .sublist{
+    height:260px;
+    width: 100%;
+    border-top: #d5d5d5 1px solid;
+    box-shadow: 0 -1px 1px #ccc;
+    position: fixed;
+    background-color: #fff;
+    top:105px;
+    left:0;
+    display: none;
+}
+.header .phone:hover .sublist{
+    display: block;
+}
+.phone .sublist .wrapper{
+    width: 1200px;
+}
+.phone .sublist .wrapper .menu-ul{
+    margin-top:30px;
+      width: 200px;
+}
+.phone .sublist .wrapper .menu-ul li{
+      width: 200px;
+      text-align: left;
+}
+.phone .sublist .wrapper .menu-ul li.title{
+          padding: 0;
+          font-weight: bold;
+          color:#777777;
+          font-size: 16px;
+          margin-bottom:10px;
+}
+.phone .sublist .wrapper .menu-ul li a{
+    color: #999999;
+    font-family: 'Microsoft YaHei';
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+}
+.phone .sublist .wrapper .menu-ul li.hot a:after{
+              content: 'hot';
+              position: absolute;
+              color:red;
+              top:-16px;
+              right:-32px;
+}
+
+
 
 .banner {
     width: 100%;
